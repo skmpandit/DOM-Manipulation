@@ -16,10 +16,10 @@ console.log(personLastName);
 
             //  Accessing the objects the new way
 
-// const { firstName, lastName } = person;
+const { firstName, lastName } = person;
 
-// console.log(firstName);
-// console.log(lastName);
+console.log(firstName);
+console.log(lastName);
 
 
 
@@ -29,7 +29,3 @@ const { firstName: fname, lastName: lname } = person;
 console.log(fname, lname);
 
 
-            //  What happens if you desctruct a property that does no exist
-
-const { firstName, lastName, middleName } = person;
-console.log(middleName);

@@ -23,4 +23,7 @@ console.log(lastName);
 
 
 
-            //  
+            //  We can also rename the variable with new way
+
+const { firstName: fname, lastName: lname } = person;
+console.log(fname, lname);

@@ -28,6 +28,9 @@ console.log(e, f, g, h, i);
 
 //      Skipping items when array Destructuring
 const arrValue = ["sonu", "kumar", "mahto"];
-const [o,,s] = arrValue;    // this is skepping middle value
+// const [o,,s] = arrValue;    // this is skepping middle value
 
+// console.log(o, s);
+
+const [o,,,s] = arrValue;
 console.log(o, s);
